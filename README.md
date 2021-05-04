@@ -11,6 +11,9 @@ A Project to investigate bikeshare use in major US cities. Created entirely in P
 
 ### Files used
 bikeshare.py
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
 Udacity Course

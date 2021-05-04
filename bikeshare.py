@@ -277,8 +277,8 @@ def data_scroll(city):
     No: Break and exit to main.
     
     """
-    df = pd.read_csv(CITY_DATA[city])
-    aa = df.shape
+    df1 = pd.read_csv(CITY_DATA[city])
+    aa = df1.shape
     c = aa[0]
     a = 0
     b = 5
@@ -290,7 +290,7 @@ def data_scroll(city):
             if answer.lower() == 'yes':
                 scroll_list = [] #reset scroll_list each time as we iterate through code block
                 while i < b:
-                    trip_list = list(df.iloc[i].values) #Create a list of row of index i
+                    trip_list = list(df1.iloc[i].values) #Create a list of row of index i
                     trip_num = str("Trip "+str(i+1)) #Add a Trip Number item.
                     trip_list.insert(0, trip_num)
                     scroll_list.append(trip_list) 

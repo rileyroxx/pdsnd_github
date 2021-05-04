@@ -54,7 +54,7 @@ def get_filters():
             else:
                 print("Not in List. Please Try again.\n")
         except KeyboardInterrupt:
-            print("\nExiting the Program")
+            print("\nYou are now exiting the Program")
             sys.exit()
 
     while True:

@@ -20,4 +20,7 @@ chicago.csv
 
 ### Credits
 Udacity Course
+John Smith
+Jane Doe
+Johnaton Bell
 

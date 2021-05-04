@@ -8,6 +8,9 @@ Bikeshare Data Exploration with Python.
 
 ### Description
 A Project to investigate bikeshare use in major US cities. Created entirely in Python.
+The project allows a user to select the data they want to see based on user inputs. 
+The user inputs are then used to filter the dataframe to split out the data they want to see.
+The user will then be able to see data such as most popular station, average age of user, average trip duration etc.
 
 ### Files used
 bikeshare.py

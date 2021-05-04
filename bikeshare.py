@@ -13,6 +13,10 @@ day_list = ['mon','tue','wed','thu','fri','sat','sun','all']
 
 #Day dictionary with abbreviated form, unique number and full form.
 #Use this to cycle through later on to get a nice output instead of just a day number.
+"""
+Dictionaries created by Johnaton Bell.
+Date 23/04/2021.
+"""
 day_dict= {'mon':[0, 'Monday'],
            'tue':[1, 'Tuesday'], 
            'wed':[2, 'Wednesday'], 
